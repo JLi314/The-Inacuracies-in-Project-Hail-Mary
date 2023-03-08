@@ -29,6 +29,20 @@ body {
   width: 100%;
   height: 100%;
 }
+.starMap {
+  float: right;   
+  border: 5px solid rgb(255, 230, 0);  
+  height: 300px;
+  margin-left: 20px;
+}
+.rocky {
+  float: right;   
+  border: 5px solid rgb(255, 230, 0);  
+  height: 300px;
+  margin-left: 20px;
+  margin-bottom: 10px; 
+  /* fix margins later in beautification */
+}
 
 .sidenav {
   height: 100%;
