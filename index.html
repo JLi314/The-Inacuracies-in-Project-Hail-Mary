@@ -8,6 +8,7 @@
     <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
 </head>
 <body> 
     <div class="sidenav">
@@ -45,7 +46,19 @@
         <h1 class="heading">Detailed Summary (the interesting one)</h1>
             <p class="paragraph">The book opens with Ryland Grace waking up next to two dead bodies. He doesn't know where he is or why he's there. As Ryland investigates his surroundings and his memories slowly return, Ryland realizes he's in a spaceship named Hail Mary with his dead crewmates, sent to investigate something called the Petrova problem.</p>
             <p class="paragraph">Scientist Irina Petrova had first observed an astronomical anomaly that later turned out to be a single-celled extraterrestrial life form. These dots appear to feed on the Sun, and their trail forms an arc between the Sun and Venus (which scientists refer to as a "Petrova Line"). This has potentially apocalyptic implications since it means the Sun is effectively dying. It's predicted that it will lead to a 10-15% decrease in the Sun's output. Hail Mary's mission is to figure out how to stop this.</p>
-            <img src="Project Hail Mary Star Map.svg" alt="" class="starMap">
+            <!-- Trigger the Modal -->
+        <img id="myImg" src="Project Hail Mary Star Map.svg" alt="Snow" style="width:100%;max-width:300px">
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+
+        </div>
             <p class="paragraph">Ryland eventually recalls his research into these particles ("Astrophages"). Ryland is a junior high science teacher who formerly worked in speculative extraterrestrial biology. Due to his prior academic research, he is brought on to the research team, run by Dr. Eva Stratt, who is given nearly unlimited authority worldwide.</p>
             <p class="paragraph">It is discovered that Astrophage can store enormous amounts of energy as mass (E=mc2). They can then expel that energy as light, the force of which they use as momentum to move around. They get their energy from stars such as the Sun. Then, because they need carbon, they go searching for carbon dioxide (which Venus is largely comprised of), where they breed and then return to the Sun with their offspring. The data suggests that Astrophage have infected many stars and will affect any star within an 8 light-year radius.</p>
             <p class="paragraph">In present day, Ryland finds that his spaceship is headed for Tau Ceti, a star located in a cluster of other Astrophage-infected stars, but unlike the others, it has not dimmed. Presumably, he there to find out why Tau Ceti has resisted infection. There, Ryland comes across an alien spaceship. The alien astronaut ("Rocky") is from a planet ("Erid") that is dealing with the same problem regarding their star, 40 Eridani. He is investigating Tau Ceti for the same reason.</p>
@@ -87,6 +100,7 @@
             <h1 class="heading">About the Author</h1>
             <p class="paragraph">Born in Montreal, I moved to Toronto when I was around 8 and I've lived here ever since.</p>
         </div>
+
     </div>
 </body>
 </html>
