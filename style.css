@@ -8,6 +8,8 @@
 body {
   background: rgb(27, 27, 27);
 }
+
+/* Text Styles*/
 .title {
   color: rgb(243, 228, 14);
   font-family: Arial, Helvetica, sans-serif;
@@ -22,35 +24,36 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.bookCover {
+/* Image Styles */
+.book-cover {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   height: 100%;
 }
-
 .rocky {
   border-radius: 5px;
-  float: right;   
-  border: 5px solid rgb(255, 230, 0);  
+  float: right;
+  border: 5px solid rgb(255, 230, 0);
   height: 300px;
   margin-left: 20px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   /* fix margins later in beautification */
 }
 
+/* Side Navigation Style */
 .sidenav {
   height: 100%;
-  width: 140px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  width: 140px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
   background-color: #f0d802;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden;
   padding-top: 20px;
-  /* border-radius: 6px; makes it look sofer*/
+  border-radius: 2px;
 }
 
 /* The navigation menu links */
@@ -63,43 +66,43 @@ body {
   display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #ffffff;
 }
 
-/* Style page content */
+/* Style page content to accomodate side navigation */
 .main {
-  margin-left: 140px; /* Same as the width of the sidebar */
+  margin-left: 140px;
   padding: 0px 10px;
 }
 
-/* Style the Image Used to Trigger the Modal */
-#myImg {
+/* Style the Image Used to Trigger the Star Map Modal  */
+#star-map-image {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  float: right;   
-  border: 5px solid rgb(255, 230, 0);  
+  float: right;
+  border: 5px solid rgb(255, 230, 0);
   margin-left: 20px;
 }
 
-
-#myImg:hover {opacity: 0.7;}
+#star-map-image:hover {
+  opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  width: 100%;
+  height: 100%;
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 /* Modal Content (Image) */
@@ -110,18 +113,22 @@ body {
   max-width: 700px;
 }
 
-/* Add Animation - Zoom in the Modal */
+/* Animation - Zoom in the Modal */
 .modal-content {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
-/* The Close Button */
+/* The Modal Close Button */
 .close {
   position: absolute;
   top: 15px;
@@ -137,11 +144,4 @@ body {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
 }
