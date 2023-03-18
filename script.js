@@ -1,13 +1,3 @@
-/*const foo = ['...', '...'];
-
-const arrOfTextNodes = document.querySelector('#id').textContent();
-
-arrOfNodes.forEach((el) => {
-    if (foo.includes(el)) {
-        
-    }
-}) */
-
 // Get the modal
 let modal = document.getElementById("star-map-modal");
 
