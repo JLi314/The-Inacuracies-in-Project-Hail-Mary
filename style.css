@@ -11,7 +11,12 @@ body {
 
 /* Text Styles*/
 .title {
-  color: rgb(243, 228, 14);
+  color: rgb(255, 220, 40); 
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.view-counter {
+  color: rgb(252, 235, 137);
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -35,7 +40,7 @@ body {
 .rocky {
   border-radius: 5px;
   float: right;
-  border: 5px solid rgb(255, 230, 0);
+  border: 5px solid rgb(253, 220, 30);
   height: 300px;
   margin-left: 20px;
   margin-bottom: 10px;
@@ -50,7 +55,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #f0d802;
+  background-color: rgb(250, 220, 30);
   overflow-x: hidden;
   padding-top: 20px;
   border-radius: 2px;
@@ -82,7 +87,7 @@ body {
   cursor: pointer;
   transition: 0.3s;
   float: right;
-  border: 5px solid rgb(255, 230, 0);
+  border: 5px solid rgb(253, 220, 30);
   margin-left: 20px;
 }
 

@@ -1,4 +1,9 @@
-// Get the modal
+// Website visit counter
+function websiteVisits(response) {
+  document.querySelector("#visits").textContent = response.value;
+}
+
+// Modal image
 let modal = document.getElementById("star-map-modal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
