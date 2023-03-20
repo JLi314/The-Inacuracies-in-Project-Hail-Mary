@@ -1,9 +1,9 @@
-*/*{
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-*/
+
 
 body {
   background: rgb(27, 27, 27);
@@ -14,19 +14,25 @@ body {
   color: rgb(255, 220, 40); 
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  margin: 8px;
+  padding-top: 5px;
 }
 .view-counter {
   color: rgb(252, 235, 137);
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  margin: 6px;
+  padding-bottom: 2px;
 }
 .paragraph {
   color: white;
   font-family: 'Open Sans', sans-serif;
+  margin: 10px;
 }
 .heading {
   color: white;
   font-family: 'Montserrat', sans-serif;
+  padding-top: 12px;
 }
 
 /* Image Styles */
