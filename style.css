@@ -58,6 +58,7 @@ body {
   border: 5px solid rgb(253, 220, 30);
   height: 160px;
   margin-left: 20px;
+  margin-right:10px;
   margin-bottom: 10px;
 }
 .rocky {
@@ -66,41 +67,18 @@ body {
   border: 5px solid rgb(253, 220, 30);
   height: 300px;
   margin-left: 20px;
+  margin-right:10px;
   margin-bottom: 10px;
 }
 
-/* Side Navigation Style */
-.sidenav {
-  height: 100%;
-  width: 140px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(250, 220, 30);
-  overflow-x: hidden;
-  padding-top: 20px;
-  border-radius: 2px;
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  color: #000000;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #ffffff;
-}
-
-/* Style page content to accomodate side navigation */
-.main {
-  margin-left: 140px;
-  padding: 0px 10px;
+.NDT-image {
+  border-radius: 5px;
+  float: right;
+  border: 5px solid rgb(253, 220, 30);
+  height: 250px;
+  margin-left: 15px;
+  margin-right:10px;
+  margin-bottom: 10px;
 }
 
 /* Style the Image Used to Trigger the Star Map Modal  */
@@ -111,6 +89,7 @@ body {
   float: right;
   border: 5px solid rgb(253, 220, 30);
   margin-left: 20px;
+  margin-right:10px;
 }
 
 #star-map-image:hover {
@@ -171,4 +150,38 @@ body {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* Side Navigation Style */
+.sidenav {
+  height: 100%;
+  width: 140px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(250, 220, 30);
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 2px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+/* Style page content to accomodate side navigation */
+.main {
+  margin-left: 140px;
+  padding: 0px 10px;
 }
