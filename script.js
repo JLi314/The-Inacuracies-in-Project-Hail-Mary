@@ -1,4 +1,4 @@
-// Website visit counter
+// Website visit count from counter API
 function websiteVisits(response) {
   document.querySelector("#visits").textContent = response.value;
 }
@@ -6,21 +6,16 @@ function websiteVisits(response) {
 // Modal image
 let modal = document.getElementById("star-map-modal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
+// Get the image and insert it inside the modal
 let img = document.getElementById("star-map-image");
 let modalImg = document.getElementById("img01");
-let captionText = document.getElementById("caption");
-img.onclick = function(){
+img.addEventListener("click", () => {
   modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
+  modalImg.src = "PHM_star_map.svg";
+});
 
-// Get the <span> element that closes the modal
-let span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+// Close Button
+let closeButton = document.getElementsByClassName("close")[0];
+closeButton.addEventListener("click", () => {
   modal.style.display = "none";
-}
-
+});
