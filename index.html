@@ -1,137 +1,517 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Inaccuracies in Project Hail Mary</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
     <script defer src="./script.js"></script>
-    <script async src="https://api.countapi.xyz/hit/jli314.github.io/337f73bf-898e-4634-8ae4-b60c921fc73b?callback=websiteVisits"></script>
-</head>
-<body> 
-<!-- Side navigation bar -->
+    <script
+      async
+      src="https://api.countapi.xyz/hit/jli314.github.io/337f73bf-898e-4634-8ae4-b60c921fc73b?callback=websiteVisits"
+    ></script>
+  </head>
+  <body>
+    <!-- Side navigation bar -->
     <div class="sidenav">
-        <a href="#"><span class="material-symbols-outlined">
-            rocket_launch
-        </span>Go to Top</a><!--Adding # lets href know it's not a normal link, but an id-->
-        <a href="#jump-to-summary">
-            <span class="material-symbols-outlined">book</span> 
-            Synopsis</a> 
-        <a href="#jump-to-issue-one">
-            <span class="material-symbols-outlined">zoom_in</span> 
-            Issue 1</a>
-        <a href="#jump-to-issue-two">
-            <span class="material-symbols-outlined">sunny</span> 
-        Issue 2</a>
-        <a href="#jump-to-issue-three">
-            <span class="material-symbols-outlined">lightbulb</span> 
-            Issue 3</a>
-        <a href="#jump-to-author">
-            <span class="material-symbols-outlined">face_3</span>
-            Author</a>
+      <a href="#"
+        ><span class="material-symbols-outlined"> rocket_launch </span>Go to
+        Top</a
+      ><!--Adding # lets href know it's not a normal link, but an id-->
+      <a href="#jump-to-summary">
+        <span class="material-symbols-outlined">book</span>
+        Synopsis</a
+      >
+      <a href="#jump-to-issue-one">
+        <span class="material-symbols-outlined">zoom_in</span>
+        Issue 1</a
+      >
+      <a href="#jump-to-issue-two">
+        <span class="material-symbols-outlined">sunny</span>
+        Issue 2</a
+      >
+      <a href="#jump-to-issue-three">
+        <span class="material-symbols-outlined">lightbulb</span>
+        Issue 3</a
+      >
+      <a href="#jump-to-author">
+        <span class="material-symbols-outlined">face_3</span>
+        Author</a
+      >
     </div>
-  
-<!-- Actual Website Content is in "main" div (excludes side nav) -->
-  <div class="main">
-    <h1 class = "title">The Scientific Inaccuracies in Project Hail Mary by Andy Weir</h1>
 
-    <p class="view-counter"> Total View/Refresh Count: <span id="visits"></span></p>
+    <!-- Actual Website Content is in "main" div (excludes side nav) -->
+    <div class="main">
+      <h1 class="title">
+        The Scientific Inaccuracies in Project Hail Mary by Andy Weir
+      </h1>
 
-    <img src="PHM_cover.webp" alt="" class="book-cover">
+      <p class="view-counter">Visit/Refresh Count: <span id="visits"></span></p>
 
-    <p class="paragraph">I would like to start this off by saying, out of the 250+ books I have logged on Goodreads over these past few years,<a href="https://www.goodreads.com/book/show/54493401-project-hail-mary" style="color: rgb(250, 215, 70);"target="_blank">Project Hail Mary</a>, by Andy Weir, is the one the most memorable one, and my absolute all time favourite. The only other possible contender to this position would be Weir's 2015 bestseller, <a href=https://www.goodreads.com/book/show/18007564-the-martian style="color: rgb(250, 215, 70);"target="_blank">The Martian</a>. What makes this book so wonderfully captivating was all the exhilarating plot twists and genius strokes of engineering ideas. It is the perfect balance between curious imagination and realism; enough to make you feel as though you are being transported to another world, yet still firmly attatched to the one you were born in.</p>
-    <P class="paragraph">Similar to The Martian, though this fictional novel is one of the most scientifically accurate ones out there, it is not completely accurate. As a result, after I finished reading the book, I sat for a while and pondered about the little scientific inaccuracies one could occasionally find throughout the novel if they searched hard enough. Since there weren't many in the ~500 page book, it became a sort of fun little treasure hunt. Using the both my preexisting knowledge, and admittedly, the internet, I have gathered a list of the few most prominent ones. </P>
-    <p class="paragraph">To Note: I am ignoring the technological improbabilities/impossibilities since this is set in the near future. Who knows how far we could advance technologically in 10+ years from when this blog was first started (March 2023, for those curious souls). I, for one, have high hopes for future technology! Though I am also slightly terrified, but I suppose it is simply part of human nature to fear the uncertain.</p>
-    <p class="paragraph">But before I get a little too ahead of myself, below is a relatively “short” plot recap of Project Hail Mary, courtesy of <a href="https://the-bibliofile.com/" style="color: rgb(250, 215, 70); ;"target="_blank">The Bibliofile</a> book reviews (written so eloquently I could not muster up the energy to write my own ... but I promise everything else is 100% written by me). Feel free to skip this summary if you are quite familiar with this book and do not need a refresher. <b>***If you have not read this book before, I advise you to proceed with caution as this is a summary of ALL the events in the novel.***</b></p>
-    
-    <div class="summary" id="jump-to-summary">
-        <h1 class="heading">Short Summary</a></h1>
-            <p class="paragraph">Ryland Grace is the sole survivor of a suicide mission to stop an alien organism that feeds on stars ("Astrophage"), which is causing the apocalyptic scenario of the sun dimming. His mission is to find out how to stop the Astrophage and send the data back via unmanned probes. He comes across an alien ("Rocky") from a planet ("Erid") that is faced with same problem with their star. The two learn communicate. Together, they find a solution, and Rocky has extra fuel so Ryland can go home. (As Ryland's memories return, he learns that he was sent here involuntarily and given a serum to wipe his memory.) But on the way home, they both run into trouble. Ryland sends Earth what it needs to stop the Astrophages, and he also decides to gives up his chance to go home in order to save Rocky and his alien species.</p>
-        
+      <img src="PHM_cover.webp" alt="" class="book-cover" />
+
+      <p class="paragraph">
+        I would like to start this off by saying, out of the 250+ books I have
+        logged on Goodreads over these past few years,<a
+          href="https://www.goodreads.com/book/show/54493401-project-hail-mary"
+          style="color: rgb(250, 215, 70)"
+          target="_blank"
+          >Project Hail Mary</a
+        >, by Andy Weir, is the one the most memorable one, and my absolute all
+        time favourite. The only other possible contender to this position would
+        be Weir's 2015 bestseller,
+        <a
+          href="https://www.goodreads.com/book/show/18007564-the-martian"
+          style="color: rgb(250, 215, 70)"
+          target="_blank"
+          >The Martian</a
+        >. What makes this book so wonderfully captivating was all the
+        exhilarating plot twists and genius strokes of engineering ideas. It is
+        the perfect balance between curious imagination and realism; enough to
+        make you feel as though you are being transported to another world, yet
+        still firmly attatched to the one you were born in.
+      </p>
+      <p class="paragraph">
+        Similar to The Martian, though this fictional novel is one of the most
+        scientifically accurate ones out there, it is not completely accurate.
+        As a result, after I finished reading the book, I sat for a while and
+        pondered about the little scientific inaccuracies one could occasionally
+        find throughout the novel if they searched hard enough. Since there
+        weren't many in the ~500 page book, it became a sort of fun little
+        treasure hunt. Using the both my preexisting knowledge, and admittedly,
+        the internet, I have gathered a list of the few most prominent ones.
+      </p>
+      <p class="paragraph">
+        To Note: I am ignoring the technological improbabilities/impossibilities
+        since this is set in the near future. Who knows how far we could advance
+        technologically in 10+ years from when this blog was first started
+        (March 2023, for those curious souls). I, for one, have high hopes for
+        future technology! Though I am also slightly terrified, but I suppose it
+        is simply part of human nature to fear the uncertain.
+      </p>
+      <p class="paragraph">
+        But before I get a little too ahead of myself, below is a relatively
+        “short” plot recap of Project Hail Mary, courtesy of
+        <a
+          href="https://the-bibliofile.com/"
+          style="color: rgb(250, 215, 70)"
+          target="_blank"
+          >The Bibliofile</a
+        >
+        book reviews (written so eloquently I could not muster up the energy to
+        write my own ... but I promise everything else is 100% written by me).
+        Feel free to skip this summary if you are quite familiar with this book
+        and do not need a refresher.
+        <b
+          >***If you have not read this book before, I advise you to proceed
+          with caution as this is a summary of ALL the events in the
+          novel.***</b
+        >
+      </p>
+
+      <div class="summary" id="jump-to-summary">
+        <h1 class="heading">Short Summary</h1>
+        <p class="paragraph">
+          Ryland Grace is the sole survivor of a suicide mission to stop an
+          alien organism that feeds on stars ("Astrophage"), which is causing
+          the apocalyptic scenario of the sun dimming. His mission is to find
+          out how to stop the Astrophage and send the data back via unmanned
+          probes. He comes across an alien ("Rocky") from a planet ("Erid") that
+          is faced with same problem with their star. The two learn communicate.
+          Together, they find a solution, and Rocky has extra fuel so Ryland can
+          go home. (As Ryland's memories return, he learns that he was sent here
+          involuntarily and given a serum to wipe his memory.) But on the way
+          home, they both run into trouble. Ryland sends Earth what it needs to
+          stop the Astrophages, and he also decides to gives up his chance to go
+          home in order to save Rocky and his alien species.
+        </p>
+
         <h1 class="heading">Detailed Summary (the interesting one)</h1>
-        <img src="hail-mary-ship.jpg" alt="Hail Mary Ship" class="hail-mary-ship">
-            <p class="paragraph">The book opens with Ryland Grace waking up next to two dead bodies. He doesn't know where he is or why he's there. As Ryland investigates his surroundings and his memories slowly return, Ryland realizes he's in a spaceship named Hail Mary (Hail Mary full of Grace, &#128521) with his dead crewmates, sent to investigate something called the Petrova problem.</p>
-            <p class="paragraph">Scientist Irina Petrova had first observed an astronomical anomaly that later turned out to be a single-celled extraterrestrial life form. These dots appear to feed on the Sun, and their trail forms an arc between the Sun and Venus (which scientists refer to as a "Petrova Line"). This has potentially apocalyptic implications since it means the Sun is effectively dying. It's predicted that it will lead to a 10-15% decrease in the Sun's output. Hail Mary's mission is to figure out how to stop this.</p>
-            <!-- Star Map Modal Image -->
-        <img id="star-map-image" src="PHM_star_map.svg" alt="Project Hail Mary Star Map" style="width:100%;max-width:300px">
-            <div id="star-map-modal" class="modal">
-                <!-- The Close Button -->
-                <span class="close">&times;</span>
-                <!-- The Image -->
-                <img class="modal-content" id="img01">
-            </div>
-            <p class="paragraph">Ryland eventually recalls his research into these particles ("Astrophages"). Ryland is a junior high science teacher who formerly worked in speculative extraterrestrial biology. Due to his prior academic research, he is brought on to the research team, run by Dr. Eva Stratt, who is given nearly unlimited authority worldwide.</p>
-            <p class="paragraph">It is discovered that Astrophage can store enormous amounts of energy as mass (E=mc2). They can then expel that energy as light, the force of which they use as momentum to move around. They get their energy from stars such as the Sun. Then, because they need carbon, they go searching for carbon dioxide (which Venus is largely comprised of), where they breed and then return to the Sun with their offspring. The data suggests that Astrophage have infected many stars and will affect any star within an 8 light-year radius.</p>
-            <p class="paragraph">In present day, Ryland finds that his spaceship is headed for Tau Ceti, a star located in a cluster of other Astrophage-infected stars, but unlike the others, it has not dimmed. Presumably, he there to find out why Tau Ceti has resisted infection. There, Ryland comes across an alien spaceship. The alien astronaut ("Rocky") is from a planet ("Erid") that is dealing with the same problem regarding their star, 40 Eridani. He is investigating Tau Ceti for the same reason.</p>
-            <img src="PHM_rocky.webp" alt="Rocky" class="rocky">
-            <p class="paragraph">Due to Erid's thick atmostphere blocking almost all light from reaching the ground, Eridians "see" using passive sonar instead of light, and their language consists of chords. Their atmosphere is also very hot and filled with ammonia, which is lethal in high amounts to humans.</p>
-            <p class="paragraph">Meanwhile, as Ryland's memories slowly return, he recalls how Astrophage proved to be a great fuel source because of its energy storage potential. However, given the extensive distance of the trip, there isn't time to breed enough Astrophage for fuel for a trip back so it's a suicide mission.</p>
-            <p class="paragraph">Stratt decides it's necessary to put the crew in extended medical comas for the four-year journey (to prevent depression or them killing each other) given that they will be confined in a small space, though only certain people have the resistances to survive the medical comas. (It's also still risky, which is why the other two crew members do not survive.) Still, Stratt manages to put together a primary and backup crew with the appropriate gene markers.</p>
-            <p class="paragraph">In present day, Ryland and Rocky learn each other's languages, and they agree to team up to figure out how to stop the Astrophage. Rocky is very talented at constructing and fixing things, which he does using an extremely strong material called xenonite. He also has the extra Astrophage fuel to allow Ryland to possibly return home. Meanwhile, Ryland teaches Rocky about things like radiation and time dilation, which the Eridians had not discovered yet.</p>
-            <p class="paragraph">They identify that Tau Ceti does have Astrophage and a Petrova Line that leads to a nearby planet, which they name Adrian. They get a sample of Astrophage from Adrian, and it indicates that the Astrophage has a predator which is why its population is being kept under control (and why Tau Ceti is not dimming). However, in order to sample it, they have to engage in a risky maneuver with the ship, the ends with Ryland and Rocky severely injured.</p>
-            <p class="paragraph">As Ryland's memories continue to resurface, he recalls how nine days before the launch, both the primary and backup scientist on the crew died in an explosion from some testing gone wrong. Instead, Ryland was asked to step in, since there wasn't time to train anyone else. Ryland had refused, but Stratt insisted. She sedates for the launch and administers a serum to induce temporary amnesia so he wouldn't remember that he was forced involuntarily to participate.</p>
-            <p class="paragraph">In present day, Ryland and Rocky isolate the predator ("Taumoeba"), but discover that nitrogen can kill it which means it can't survive on Venus and Threeword (the planets where Astrophages are breeding near the Sun and 40 Eridani, respectively).</p>
-            <p class="paragraph">Instead, they have to breed a strain of enhanced Taumoeba that is resistant to nitrogen. In the process, some Taumoeba get loose and rapidly consume Hail Mary's Astrophage fuel, but they manage to contain the situation and swap the fuel. Once the nitrogen-resistant Taumoeba is ready, Ryland and Rocky bid each other farewell as they go home to save their respective species.</p>
-            <p class="paragraph">However, on the way back, Ryland discovers that the enhanced Taumoeba has also acquired the trait of being able to hide in the xenonite material that their tanks were built with. While Ryland simply swaps out the tanks, Rocky's entire ship is built with xenonite. Ryland sends his unmanned probes off to Earth with the Taumoeba necessary to stop the Astrophages, and then he turns back to save Rocky (and the rest of the Eridian species) even though it means he won't be able to go home.</p>
-            <p class="paragraph">Years later, Ryland is living on Erid in a bubble since otherwise he would die. Rocky reports that their scientists have discovered that Earth's Sun is now at full luminance, indicating that Earth was saved in time and is now habitable.</p>
+        <img
+          src="hail-mary-ship.jpg"
+          alt="Hail Mary Ship"
+          class="hail-mary-ship"
+        />
+        <p class="paragraph">
+          The book opens with Ryland Grace waking up next to two dead bodies. He
+          doesn't know where he is or why he's there. As Ryland investigates his
+          surroundings and his memories slowly return, Ryland realizes he's in a
+          spaceship named Hail Mary (Hail Mary full of Grace &#128521;) with his
+          dead crewmates, sent to investigate something called the Petrova
+          problem.
+        </p>
+        <p class="paragraph">
+          Scientist Irina Petrova had first observed an astronomical anomaly
+          that later turned out to be a single-celled extraterrestrial life
+          form. These dots appear to feed on the Sun, and their trail forms an
+          arc between the Sun and Venus (which scientists refer to as a "Petrova
+          Line"). This has potentially apocalyptic implications since it means
+          the Sun is effectively dying. It's predicted that it will lead to a
+          10-15% decrease in the Sun's output. Hail Mary's mission is to figure
+          out how to stop this.
+        </p>
+        <!-- Star Map Modal Image -->
+        <img
+          id="star-map-image"
+          src="PHM_star_map.svg"
+          alt="Project Hail Mary Star Map"
+          style="width: 100%; max-width: 300px"
+        />
+        <div id="star-map-modal" class="modal">
+          <span class="close">x</span>
+          <img class="modal-content" id="img01" />
         </div>
+        <p class="paragraph">
+          Ryland eventually recalls his research into these particles
+          ("Astrophages"). Ryland is a junior high science teacher who formerly
+          worked in speculative extraterrestrial biology. Due to his prior
+          academic research, he is brought on to the research team, run by Dr.
+          Eva Stratt, who is given nearly unlimited authority worldwide.
+        </p>
+        <p class="paragraph">
+          It is discovered that Astrophage can store enormous amounts of energy
+          as mass (E=mc<sup>2</sup>). They can then expel that energy as light,
+          the force of which they use as momentum to move around. They get their
+          energy from stars such as the Sun. Then, because they need carbon,
+          they go searching for carbon dioxide (which Venus is largely comprised
+          of), where they breed and then return to the Sun with their offspring.
+          The data suggests that Astrophage have infected many stars and will
+          affect any star within an 8 light-year radius.
+        </p>
+        <p class="paragraph">
+          In present day, Ryland finds that his spaceship is headed for Tau
+          Ceti, a star located in a cluster of other Astrophage-infected stars,
+          but unlike the others, it has not dimmed. Presumably, he there to find
+          out why Tau Ceti has resisted infection. There, Ryland comes across an
+          alien spaceship. The alien astronaut ("Rocky") is from a planet
+          ("Erid") that is dealing with the same problem regarding their star,
+          40 Eridani. He is investigating Tau Ceti for the same reason.
+        </p>
+        <img src="PHM_rocky.webp" alt="Rocky" class="rocky" />
+        <p class="paragraph">
+          Due to Erid's thick atmostphere blocking almost all light from
+          reaching the ground, Eridians "see" using passive sonar instead of
+          light, and their language consists of chords. Their atmosphere is also
+          very hot and filled with ammonia, which is lethal in high amounts to
+          humans.
+        </p>
+        <p class="paragraph">
+          Meanwhile, as Ryland's memories slowly return, he recalls how
+          Astrophage proved to be a great fuel source because of its energy
+          storage potential. However, given the extensive distance of the trip,
+          there isn't time to breed enough Astrophage for fuel for a trip back
+          so it's a suicide mission.
+        </p>
+        <p class="paragraph">
+          Stratt decides it's necessary to put the crew in extended medical
+          comas for the four-year journey (to prevent depression or them killing
+          each other) given that they will be confined in a small space, though
+          only certain people have the resistances to survive the medical comas.
+          (It's also still risky, which is why the other two crew members do not
+          survive.) Still, Stratt manages to put together a primary and backup
+          crew with the appropriate gene markers.
+        </p>
+        <p class="paragraph">
+          In present day, Ryland and Rocky learn each other's languages, and
+          they agree to team up to figure out how to stop the Astrophage. Rocky
+          is very talented at constructing and fixing things, which he does
+          using an extremely strong material called xenonite. He also has the
+          extra Astrophage fuel to allow Ryland to possibly return home.
+          Meanwhile, Ryland teaches Rocky about things like radiation and time
+          dilation, which the Eridians had not discovered yet.
+        </p>
+        <p class="paragraph">
+          They identify that Tau Ceti does have Astrophage and a Petrova Line
+          that leads to a nearby planet, which they name Adrian. They get a
+          sample of Astrophage from Adrian, and it indicates that the Astrophage
+          has a predator which is why its population is being kept under control
+          (and why Tau Ceti is not dimming). However, in order to sample it,
+          they have to engage in a risky maneuver with the ship, the ends with
+          Ryland and Rocky severely injured.
+        </p>
+        <p class="paragraph">
+          As Ryland's memories continue to resurface, he recalls how nine days
+          before the launch, both the primary and backup scientist on the crew
+          died in an explosion from some testing gone wrong. Instead, Ryland was
+          asked to step in, since there wasn't time to train anyone else. Ryland
+          had refused, but Stratt insisted. She sedates for the launch and
+          administers a serum to induce temporary amnesia so he wouldn't
+          remember that he was forced involuntarily to participate.
+        </p>
+        <p class="paragraph">
+          In present day, Ryland and Rocky isolate the predator ("Taumoeba"),
+          but discover that nitrogen can kill it which means it can't survive on
+          Venus and Threeword (the planets where Astrophages are breeding near
+          the Sun and 40 Eridani, respectively).
+        </p>
+        <p class="paragraph">
+          Instead, they have to breed a strain of enhanced Taumoeba that is
+          resistant to nitrogen. In the process, some Taumoeba get loose and
+          rapidly consume Hail Mary's Astrophage fuel, but they manage to
+          contain the situation and swap the fuel. Once the nitrogen-resistant
+          Taumoeba is ready, Ryland and Rocky bid each other farewell as they go
+          home to save their respective species.
+        </p>
+        <p class="paragraph">
+          However, on the way back, Ryland discovers that the enhanced Taumoeba
+          has also acquired the trait of being able to hide in the xenonite
+          material that their tanks were built with. While Ryland simply swaps
+          out the tanks, Rocky's entire ship is built with xenonite. Ryland
+          sends his unmanned probes off to Earth with the Taumoeba necessary to
+          stop the Astrophages, and then he turns back to save Rocky (and the
+          rest of the Eridian species) even though it means he won't be able to
+          go home.
+        </p>
+        <p class="paragraph">
+          Years later, Ryland is living on Erid in a bubble since otherwise he
+          would die. Rocky reports that their scientists have discovered that
+          Earth's Sun is now at full luminance, indicating that Earth was saved
+          in time and is now habitable.
+        </p>
+      </div>
 
-        <div id="jump-to-issue-one">
-            <h1 class="heading">Issue 1</h1>
-                <p class="paragraph">The first issue is the puzzling nature of Taumeobas being able to pass through xenonite despite their relatively larger size when compared to nitrogen molecules. Nitrogen is incapable of permeating the porous material of xenonite despite its small size, lack of charge, and nonpolar nature, which, theoretically, should make it ideal for diffusing through materials. In contrast, Taumeobas are microorganisms that are larger than nitrogen molecules (likely on the scale of Eukaryotic creatures) and feed on astrophage, indicating that they are at least the same size or even larger than astrophage. Despite their larger size, Taumeobas can pass through xenonite, which is unexpected. Therefore, it is unclear what allows Taumeobas to permeate xenonite while nitrogen cannot. If nitrogen cannot diffuse through the material, Taumeobas should not be able to do so either. It's why N95 masks block viruses, which are likely much smaller than Taumeobas, but you can still breathe through them. </p>
-                <p class="paragraph">This could perhaps be addressed through the theory that Taumoebas have evolved to eat through, or otherwise carve holes in xenonite. As the Taumoeba carves through the xenonite, it deposits waste behind it, much like a worm, effectively blocking MOST of the nitrogen from filling it's chamber and killing it. Though this is implausible, since xenonite is made out to be an EXTREMELY strong material, it is more plausible than Taumeobas squeezing through spaces that nitrogen can not.</p>
-        </div>
+      <div id="jump-to-issue-one">
+        <h1 class="heading">Issue 1</h1>
+        <p class="paragraph">
+          The first issue is the puzzling nature of Taumeobas being able to pass
+          through xenonite despite their relatively larger size when compared to
+          nitrogen molecules. Nitrogen is incapable of permeating the porous
+          material of xenonite despite its small size, lack of charge, and
+          nonpolar nature, which, theoretically, should make it ideal for
+          diffusing through materials. In contrast, Taumeobas are microorganisms
+          that are larger than nitrogen molecules (likely on the scale of
+          Eukaryotic creatures) and feed on astrophage, indicating that they are
+          at least the same size or even larger than astrophage. Despite their
+          larger size, Taumeobas can pass through xenonite, which is unexpected.
+          Therefore, it is unclear what allows Taumeobas to permeate xenonite
+          while nitrogen cannot. If nitrogen cannot diffuse through the
+          material, Taumeobas should not be able to do so either. It's why N95
+          masks block viruses, which are likely much smaller than Taumeobas, but
+          you can still breathe through them.
+        </p>
+        <p class="paragraph">
+          This could perhaps be addressed through the theory that Taumoebas have
+          evolved to eat through, or otherwise carve holes in xenonite. As the
+          Taumoeba carves through the xenonite, it deposits waste behind it,
+          much like a worm, effectively blocking MOST of the nitrogen from
+          filling it's chamber and killing it. Though this is implausible, since
+          xenonite is made out to be an EXTREMELY strong material, it is more
+          plausible than Taumeobas squeezing through spaces that nitrogen can
+          not.
+        </p>
+      </div>
 
-        <div id="jump-to-issue-two">
-            <h1 class="heading">Issue 2</h1> <!--fix equation formatting (^ for superscript is UGLY, lmao)-->
-            <p class="paragraph">According to <a href="https://en.wikipedia.org/wiki/Solar_constant#Variations_due_to_atmospheric_conditions" style="color: rgb(250, 215, 70);"target="_blank">Wikipedia</a>, on an “ideal” cloudless day around 75% of the sun's solar energy reaches the surface of the earth, with this number being reduced to around 40-50% on cloudy days. From this, you can estimate that if the atmosphere were <i>n</i> times as dense, the fraction of sunlight reaching the ground should be 0.75<sup>n-1</sup>. Throughout the story, Grace likes to point out that Erid's atmosphere is 29 times as dense as Earth's. This is because when the two bridges connected Rocky put 29 of his “air” and only 1 “air” for Earth into the models for Erid and Earth's respectfully. Since Hail Mary, the ship, was only pressurized to 1/5 of Earth's atmosphere, Erid's atmosphere would be around 29/5 as dense as Earth's, or roughly 6 times as dense. Using the equation from above, around 24% of the sunlight should reach the ground.</p>
-            <p class="paragraph">But of course, Erid is NOT Earth, so the distance to the star in the 40 Eridani star and the composition of the atmosphere are also extremely important variables in this equation. In the novel, it is mentioned that Erid is the first planet in the Eridani star system, so it is “extremely” close to it and the intensity of starlight should be relatively strong. Additionally, it is stated several times throughout the novel that the atmosphere of Erid, and therefore, Rocky's spaceship, is primarily made of Ammonia, which is less dense than air. As a result of these two variables (though there are certainly more that need to be taken into account), my calculation of 24% starlight penetration above would actually be an <b>underestimation</b>. With this much 40 Eridani light reaching the floor, is it unlikely that sonar sense evolved in the Eridians is necessary, perhaps only an increased sensitivity to light.</p>
-            <p class="paragraph"><b>BUT</b>, evolution is a wonderfully fascinating process. The eye is incredibly complex, and the Eridians likely evolved a sonar senses simply by chance. But it would be incorrect to state that sonar sense was developed because Erid is too dim, and sight would be useless.</p>
-            <p class="paragraph">To note: Rocky is simply fascinating. When he came to save Grace in Hail Mary's conditions he did not spontaneously explode, so he must be able to handle very high internal pressure differences. It is even more impressive when you pair this with the stark temperature differences. </p>
-        </div>
+      <div id="jump-to-issue-two">
+        <h1 class="heading">Issue 2</h1>
+        <p class="paragraph">
+          According to
+          <a
+            href="https://en.wikipedia.org/wiki/Solar_constant#Variations_due_to_atmospheric_conditions"
+            style="color: rgb(250, 215, 70)"
+            target="_blank"
+            >Wikipedia</a
+          >, on an “ideal” cloudless day around 75% of the sun's solar energy
+          reaches the surface of the earth, with this number being reduced to
+          around 40-50% on cloudy days. From this, you can estimate that if the
+          atmosphere were <i>n</i> times as dense, the fraction of sunlight
+          reaching the ground should be 0.75<sup>n-1</sup>. Throughout the
+          story, Grace likes to point out that Erid's atmosphere is 29 times as
+          dense as Earth's. This is because when the two bridges connected Rocky
+          put 29 of his “air” and only 1 “air” for Earth into the models for
+          Erid and Earth's respectfully. Since Hail Mary, the ship, was only
+          pressurized to 1/5 of Earth's atmosphere, Erid's atmosphere would be
+          around 29/5 as dense as Earth's, or roughly 6 times as dense. Using
+          the equation from above, around 24% of the sunlight should reach the
+          ground.
+        </p>
+        <p class="paragraph">
+          But of course, Erid is NOT Earth, so the distance to the star in the
+          40 Eridani star and the composition of the atmosphere are also
+          extremely important variables in this equation. In the novel, it is
+          mentioned that Erid is the first planet in the Eridani star system, so
+          it is “extremely” close to it and the intensity of starlight should be
+          relatively strong. Additionally, it is stated several times throughout
+          the novel that the atmosphere of Erid, and therefore, Rocky's
+          spaceship, is primarily made of Ammonia, which is less dense than air.
+          As a result of these two variables (though there are certainly more
+          that need to be taken into account), my calculation of 24% starlight
+          penetration above would actually be an <b>underestimation</b>. With
+          this much 40 Eridani light reaching the floor, is it unlikely that
+          sonar sense evolved in the Eridians is necessary, perhaps only an
+          increased sensitivity to light.
+        </p>
+        <p class="paragraph">
+          <b>BUT</b>, evolution is a wonderfully fascinating process. The eye is
+          incredibly complex, and the Eridians likely evolved a sonar senses
+          simply by chance. But it would be incorrect to state that sonar sense
+          was developed because Erid is too dim, and sight would be useless.
+        </p>
+        <p class="paragraph">
+          To note: Rocky is simply fascinating. When he came to save Grace in
+          Hail Mary's conditions he did not spontaneously explode, so he must be
+          able to handle very high internal pressure differences. It is even
+          more impressive when you pair this with the stark temperature
+          differences.
+        </p>
+      </div>
 
-        <div id="jump-to-issue-three">
-            <h1 class="heading">Issue 3</h1>
-            <p class="paragraph">Rocky develops a method of using his sonar sense to view human display screens by connecting a camera to a tactile display that uses roughness to represent color. However, this presents a significant issue because human displays utilize a different method of simulating color than the natural world. Human displays only use three phosphors (Red, Green, and Blue) that correspond to the three types of color-sensitive cells in our eyes, while any other color is produced by mixing different light. </p>
-            <p class="paragraph">As a result, a violet object, for example, which reflects light at a wavelength of about 400 nm in the real world, would be represented on a screen by a blend of light at 650 nm (red) and 450 nm (blue), resulting in the same appearance to human eyes. However, an alien sensor would perceive the two as distinct wavelengths, and Rocky's sensor would produce an image of the screen that would differ from what a person would see. To resolve this problem, it would be necessary to educate Rocky on the workings of the human eye and color theory and adjust his display to interpret pixel light as the intended color. Due to the severe time crunch to save both Earth and Erid, Grace likely didn't have the time to teach Rocky about all this “useless” knowledge.</p>
-            <p class="paragraph">Though it could be argued that it is possible that display screens would use the complete light spectrum, however, the likelihood of this happening is very low, as the Hail Mary was constructed using readily available components wherever feasible, and this novel takes place in the very near future. You would need new display technologies that encompass the entire light spectrum and is widely adopted as a standard screen. Given that people would hardly perceive any significant difference, it seems improbable that this would come to fruition. Why fix something that isn't broken? Especially when society is trying to save itself from freezing to death!</p>
-        </div>
+      <div id="jump-to-issue-three">
+        <h1 class="heading">Issue 3</h1>
+        <p class="paragraph">
+          Rocky develops a method of using his sonar sense to view human display
+          screens by connecting a camera to a tactile display that uses
+          roughness to represent color. However, this presents a significant
+          issue because human displays utilize a different method of simulating
+          color than the natural world. Human displays only use three phosphors
+          (Red, Green, and Blue) that correspond to the three types of
+          color-sensitive cells in our eyes, while any other color is produced
+          by mixing different light.
+        </p>
+        <p class="paragraph">
+          As a result, a violet object, for example, which reflects light at a
+          wavelength of about 400 nm in the real world, would be represented on
+          a screen by a blend of light at 650 nm (red) and 450 nm (blue),
+          resulting in the same appearance to human eyes. However, an alien
+          sensor would perceive the two as distinct wavelengths, and Rocky's
+          sensor would produce an image of the screen that would differ from
+          what a person would see. To resolve this problem, it would be
+          necessary to educate Rocky on the workings of the human eye and color
+          theory and adjust his display to interpret pixel light as the intended
+          color. Due to the severe time crunch to save both Earth and Erid,
+          Grace likely didn't have the time to teach Rocky about all this
+          “useless” knowledge.
+        </p>
+        <p class="paragraph">
+          Though it could be argued that it is possible that display screens
+          would use the complete light spectrum, however, the likelihood of this
+          happening is very low, as the Hail Mary was constructed using readily
+          available components wherever feasible, and this novel takes place in
+          the very near future. You would need new display technologies that
+          encompass the entire light spectrum and is widely adopted as a
+          standard screen. Given that people would hardly perceive any
+          significant difference, it seems improbable that this would come to
+          fruition. Why fix something that isn't broken? Especially when society
+          is trying to save itself from freezing to death!
+        </p>
+      </div>
 
-        <div id="jump-to-author">
-            <h1 class="heading">About Me, and how I came to love this book</h1>
-            <p class="paragraph">Born in Montreal, I moved to Toronto when I was around 8 and I have lived here ever since. Growing up, though I have always found science and engineering interesting, I have never been truly passionate about it. I was more of a ... gym rat, if I am being honest.  </p>
-            <p class="paragraph">The sudden switch in my interests came when the COVID-19 pandemic started, and everything shut down. Cooped up inside like everyone else, I turned to the internet and books for entertainment (though let's be honest, I was an addict to both even before the whole pandemic situation started). </p>
-            <p class="paragraph">I joined a Discord group for homework help and met a Turkish friend whom I talked to a lot back then. He introduced me to Neil deGrasse Tyson and his podcast StarTalk, which led me to other podcasts on similar topics such as Science Rules hosted by Bill Nye (my personal favourite!). This perfectly coincided with my shifting reading interests at that time, as a started to ditch the fictional YA books in favour of non-fiction books about science and mathematics. I read fascinating books ranging a huge variety of topics from recreational mathematics such as Things to Make and Do in the Fourth Dimension by Matt Parker to books on the end of the universe such as Brief Answers to the Big Questions by Katie Mack, to human biology such as The Body: A Guide for Occupants by Bill Bryson. </p>
-            <p class="paragraph">Slowly but surely, over the course of a few years, I started to fall in love with science and mathematics, reserving a special place in my heart for astrophysics, which started this whole craze of mine. I adored not only the clever solutions to mathematical enigmas and wonderous view of everyday life from a scientific perspective, but the gorgeous history of science and mathematics. From the fetid way phosphorus was first isolated in its elemental form to the scintillating way my favourite scientist of all time, Richard Feynman, lived his life and contributed to the scientific community, I LOVE it all. </p>
-            <p class="paragraph">This left me with an ache to share this with my community, and show others the beauty of science and mathematics. With the help of several friends and the support of teachers who saw the value of our idea, the Agincourt Science Club emerged in early 2021. Through this club, I got the opportunity to research lessons + labs on exciting new topics, such as:</p>
-            <img src="NDT-image.png" alt="Me in a google meet with Neil deGrasse Tyson" class="NDT-image">
-            <ul id="bullets">
-                <li>A Paper Airplane Lab (Aerodynamics and Flight)</li>
-                <li>Cup String Telephone Lab (Electromagnetic and Mechanical Waves)</li>
-                <li>Spectroscope Lab (Atomic Model and the Nature of Light)</li>
-                <li>Mobius Strip Lab (Topology)</li>
-                <li>Fruit Juice Caviar Lab (Hydrophilic, Hydrophobic, and the Structure of Oils)</li>
-              </ul>
-            <p class="paragraph">This all came full circle when I was able to get in touch with Neil deGrasse Tyson and ask him to host a 30-minute Q and A session with the members of the science club. That was probably one of the most exciting events in my life, and I quite literally cried the day I received a phone call from his assistant asking to schedule a meeting. </p>
-            <p class="paragraph">As a result, when the time came to make my post-secondary career path decision in high school, I decided to pursue engineering (electrical engineering, for those who are curious), as it is a perfect marriage of physics, my favourite branch of science, and mathematics. </p>
-            <p class="paragraph">So yeah, there's my story about my relationship with science and mathematics over the years. It is because of this relationship that I came to adore a hard science fiction book so much that I spent tens of hours writing and programming a whole blog about it. I hope you enjoyed it!</p>
-            <p class="paragraph">PS. If, by chance, you're Andy Weir and you're reading this blog, keep pumping out those books!</p>
-        </div>
-
+      <div id="jump-to-author">
+        <h1 class="heading">About Me, and how I came to love this book</h1>
+        <p class="paragraph">
+          Born in Montreal, I moved to Toronto when I was around 8 and I have
+          lived here ever since. Growing up, though I have always found science
+          and engineering interesting, I have never been truly passionate about
+          it. I was more of a ... gym rat, if I am being honest.
+        </p>
+        <p class="paragraph">
+          The sudden switch in my interests came when the COVID-19 pandemic
+          started, and everything shut down. Cooped up inside like everyone
+          else, I turned to the internet and books for entertainment (though
+          let's be honest, I was an addict to both even before the whole
+          pandemic situation started).
+        </p>
+        <p class="paragraph">
+          I joined a Discord group for homework help and met a Turkish friend
+          whom I talked to a lot back then. He introduced me to Neil deGrasse
+          Tyson and his podcast StarTalk, which led me to other podcasts on
+          similar topics such as Science Rules hosted by Bill Nye (my personal
+          favourite!). This perfectly coincided with my shifting reading
+          interests at that time, as a started to ditch the fictional YA books
+          in favour of non-fiction books about science and mathematics. I read
+          fascinating books ranging a huge variety of topics from recreational
+          mathematics such as Things to Make and Do in the Fourth Dimension by
+          Matt Parker to books on the end of the universe such as Brief Answers
+          to the Big Questions by Katie Mack, to human biology such as The Body:
+          A Guide for Occupants by Bill Bryson.
+        </p>
+        <p class="paragraph">
+          Slowly but surely, over the course of a few years, I started to fall
+          in love with science and mathematics, reserving a special place in my
+          heart for astrophysics, which started this whole craze of mine. I
+          adored not only the clever solutions to mathematical enigmas and
+          wonderous view of everyday life from a scientific perspective, but the
+          gorgeous history of science and mathematics. From the fetid way
+          phosphorus was first isolated in its elemental form to the
+          scintillating way my favourite scientist of all time, Richard Feynman,
+          lived his life and contributed to the scientific community, I LOVE it
+          all.
+        </p>
+        <p class="paragraph">
+          This left me with an ache to share this with my community, and show
+          others the beauty of science and mathematics. With the help of several
+          friends and the support of teachers who saw the value of our idea, the
+          Agincourt Science Club emerged in early 2021. Through this club, I got
+          the opportunity to research lessons + labs on exciting new topics,
+          such as:
+        </p>
+        <img
+          src="NDT-image.png"
+          alt="Me in a google meet with Neil deGrasse Tyson"
+          class="NDT-image"
+        />
+        <ul id="bullets">
+          <li>A Paper Airplane Lab (Aerodynamics and Flight)</li>
+          <li>
+            Cup String Telephone Lab (Electromagnetic and Mechanical Waves)
+          </li>
+          <li>Spectroscope Lab (Atomic Model and the Nature of Light)</li>
+          <li>Mobius Strip Lab (Topology)</li>
+          <li>
+            Fruit Juice Caviar Lab (Hydrophilic, Hydrophobic, and the Structure
+            of Oils)
+          </li>
+        </ul>
+        <p class="paragraph">
+          This all came full circle when I was able to get in touch with Neil
+          deGrasse Tyson and ask him to host a 30-minute Q and A session with
+          the members of the science club. That was probably one of the most
+          exciting events in my life, and I quite literally cried the day I
+          received a phone call from his assistant asking to schedule a meeting.
+        </p>
+        <p class="paragraph">
+          As a result, when the time came to make my post-secondary career path
+          decision in high school, I decided to pursue engineering (electrical
+          engineering, for those who are curious), as it is a perfect marriage
+          of physics, my favourite branch of science, and mathematics.
+        </p>
+        <p class="paragraph">
+          So yeah, there's my story about my relationship with science and
+          mathematics over the years. It is because of this relationship that I
+          came to adore a hard science fiction book so much that I spent tens of
+          hours writing and programming a whole blog about it. I hope you
+          enjoyed it!
+        </p>
+        <p class="paragraph">
+          PS. If, by chance, you're Andy Weir and you're reading this blog, keep
+          pumping out those books!
+        </p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 <!--
-    add feature where clicking on it triggers animation to enlarge
-
     for my future reference: kebab-case for IDs and classes and camelCase for variables in Javascript
     ctrl shift F for find and ctrl shift H for replace
     shift alt f for prettier formatting
+
+    Note to self: <span> inherently does nothing and is only used for you to mark stuff up with and ID or class
+
+    Update for Qayum:
+    issue 1 was: for got to add apostophes for a single href, hard to catch because it was the second one so I kept looking at the first one but that one was fine
+    issue 2 was: a random </a>
+
+		also fixed the indentation issue
 -->
