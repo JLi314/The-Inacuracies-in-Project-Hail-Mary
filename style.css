@@ -16,6 +16,7 @@ body {
   margin: 8px;
   padding-top: 5px;
 }
+
 .view-counter {
   color: rgb(252, 235, 137);
   font-family: "Montserrat", sans-serif;
@@ -23,11 +24,13 @@ body {
   margin: 6px;
   padding-bottom: 2px;
 }
+
 .paragraph {
   color: white;
   font-family: "Open Sans", sans-serif;
   margin: 10px;
 }
+
 .heading {
   color: white;
   font-family: "Montserrat", sans-serif;
