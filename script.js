@@ -9,6 +9,7 @@ img.addEventListener("click", () => {
   modal.style.display = "block";
   modalImg.src = "PHM_star_map.svg";
 });
+
 let closeButton = document.getElementsByClassName("close")[0];
 closeButton.addEventListener("click", () => {
   modal.style.display = "none";
